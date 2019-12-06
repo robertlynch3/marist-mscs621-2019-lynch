@@ -19,10 +19,10 @@ The following are required to run the application:<br>
 Docker [Installation Guide](https://docs.docker.com/v17.09/engine/installation/)
 <br><br>
 **Development Environment**<br>
-Python3 [Installation Guide](https://realpython.com/installing-python/)
-Flask
-Requests
-_For Flask and requests:_
+Python3 [Installation Guide](https://realpython.com/installing-python/)<br>
+Flask<br>
+Requests<br>
+_For Flask and requests:_<br>
 `sudo pip install requirements.txt`
 <br><br>
 **API Backend**<br>
