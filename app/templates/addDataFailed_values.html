@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+</script>
+<div class="alert alert-danger">
+<strong>Error!</strong> Please enter correct values.
+</div>
+  <h1>Add Data</h1>
+  <p>
+    <form action="#" method="post">
+      Slug:  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="slug"><br><br>
+      Switch Name: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<input type="text" name="name"/><br><br>
+      Recommended Version: &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="firmware"/><br><br>
+      <br><br><input type="submit" value="submit"/>
+    </form>
+
+    <br><br><br>
+    <b>Slug</b> - Slug is identifier for the object. It is an readable/memorable ID. <i>Example: Juniper QFX-5100 Switch - qfx5100</i>
+    <br><b>Switch Name</b> -  Switch Name is the name of the switch provided by Juniper.  <i> In the example above, QFX-5100 is the name</i>
+    <br><b>Recommended Version</b> - The version that JTAC recommends for the switch. <i>Example: QFX-5100 recommended version - junos 18.1r3-S6
+  </p>
+{% endblock %}

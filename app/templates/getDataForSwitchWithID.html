@@ -1,0 +1,40 @@
+
+{% extends 'layout.html' %}
+{% block body %}
+<style>
+table, th, td {
+  border: 1px solid black;
+  align: "center";
+}
+</style>
+<script type="text/javascript">
+  function goToProperPage() {
+      var url;
+      var selectValue = document.getElementById("my-dropdown").value;
+      url='/getDataForSwitchWithID/';
+      url=url.concat(selectValue);
+      console.log(url);
+      window.location.href=url;
+  }
+</script>
+<h1>Check Version</h1>
+<p>
+  <select id="my-dropdown" name="my-dropdown">
+    {% for switchesLoop in switchesList %}
+      <option value="{{switchesLoop.slug}}">{{switchesLoop.name}}</option>
+    {% endfor %}
+  </select>
+  <br><br><button class="go-btn" type="submit" onclick="javascript:goToProperPage();">Submit</button>
+</p>
+<br>
+<table style="width:50%">
+  <tr>
+    <th>Switch Model</th>
+    <th>Recommended Version</th>
+  </tr>
+  <tr>
+    <td align="center">{{switches.name}}</td>
+    <td align="center">{{switches.recommendedVersion}}</td>
+  </tr>
+</table>
+{% endblock %}

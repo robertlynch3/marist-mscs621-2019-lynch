@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<script type="text/javascript">
+  function goToProperPage() {
+      var url;
+      var selectValue = document.getElementById("my-dropdown").value;
+      url='/getDataForSwitchWithID/';
+      url=url.concat(selectValue);
+      console.log(url);
+      window.location.href=url;
+  }
+</script>
+  <h1>Check Version</h1>
+  <p>
+    <select id="my-dropdown" name="my-dropdown">
+      {% for switches in switches %}
+        <option value="{{switches.slug}}">{{switches.name}}</option>
+      {% endfor %}
+    </select>
+    <br><br><button class="go-btn" type="submit" onclick="javascript:goToProperPage();">Submit</button>
+  </p>
+{% endblock %}
