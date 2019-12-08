@@ -9,7 +9,7 @@ This application consists of a Flask webpage that connects to an IBM Cloud serve
 ## Architecture
 This application has three components: the web front, development environment, and the API backend. The web front is a containerized image containing the python3 repository as well as the python files required to run the application. The development end mainly consists of the Flask and HTML files needed to run the application locally with your console. The development environment allows the user to see the interactions with the application via a terminal. Finally, the API backend is an API based on IBM Cloud serverless compute functions connecting IBM's `Cloudant` database to the application.
 
-ARCHITECTURE DIAGRAM
+![Architecture Drawing](MSCS621-Project.png)
 
 The logical flow of the application consists of user interaction with either the web front or the development environment. Then, either the web front or the developement environment, interacts with the API to display the correct information for the user.
 
