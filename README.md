@@ -17,7 +17,11 @@ The logical flow of the application consists of user interaction with either the
 ### Requirements
 The following are required to run the application:
 **Web Front**<br>
-Docker [Installation Guide](https://docs.docker.com/v17.09/engine/installation/)
+Docker [Installation Guide](https://docs.docker.com/v17.09/engine/installation/)<br>
+`docker run -d -p 5000:5000 robertlynch3/mscs621-fall2019-project`<br>
+<br>
+[Running on AWS](https://www.theserverside.com/video/How-to-deploy-Docker-Hub-hosted-microservices-in-AWS-ECS)<br>
+
 
 **Development Environment**
 Python3 [Installation Guide](https://realpython.com/installing-python/)
