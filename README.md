@@ -16,7 +16,6 @@ The logical flow of the application consists of user interaction with either the
 ## Deployment
 The following are required to run the application:<br>
 **Web Front**<br>
-<<<<<<< HEAD
 Docker [Installation Guide](https://docs.docker.com/v17.09/engine/installation/)<br>
 `docker run -d -p 5000:5000 robertlynch3/mscs621-fall2019-project`<br>
 <br>
@@ -36,7 +35,6 @@ Python3 [Installation Guide](https://realpython.com/installing-python/)<br>
 Flask<br>
 Requests<br>
 _For Flask and requests:_<br>
->>>>>>> edc559fb0f4e835ce1ce30e9bee4d24b816175bc
 `sudo pip install requirements.txt`
 <br><br>
 **API Backend**<br>
