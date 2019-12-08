@@ -19,8 +19,9 @@ The following are required to run the application:<br>
 Docker [Installation Guide](https://docs.docker.com/v17.09/engine/installation/)<br>
 `docker run -d -p 5000:5000 robertlynch3/mscs621-fall2019-project`<br>
 <br>
-[Running on AWS](https://www.theserverside.com/video/How-to-deploy-Docker-Hub-hosted-microservices-in-AWS-ECS)<br>
+[Running on AWS](https://www.theserverside.com/video/How-to-deploy-Docker-Hub-hosted-microservices-in-AWS-ECS)
 <br><br>
+
 **Development Environment**<br>
 Python3 [Installation Guide](https://realpython.com/installing-python/)<br>
 Flask<br>
@@ -28,9 +29,11 @@ Requests<br><br>
 _For Flask and requests:_<br>
 `sudo pip install requirements.txt`
 <br><br>
+
 **API Backend**<br>
 [Follow instructions on IBM Cloud](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-serverless-api-webapp)
 Edit the URL in the `app/data.py` file to the correct URL for your function.
 <br><br>
+
 ## Development process
 This project was developed with help from Marist College iLearn resources, Youtube, and IBM resources.
