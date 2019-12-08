@@ -12,6 +12,9 @@ This application has three components: the web front, development environment, a
 ![Architecture Drawing](MSCS621-Project.png)
 
 The logical flow of the application consists of user interaction with either the web front or the development environment. Then, either the web front or the developement environment, interacts with the API to display the correct information for the user.
+<br><br>
+**Dependencies**
+This applications has two main parts, the web front, and the backend APIs. The web front is built on Python using Flask. Flask renders HTML files based on Jinja2 templates. These web files are then served to the end user. The API backend is served via IBM's serverless functions. NodeJS functions are ran when information is requested.
 
 ## Deployment
 The following are required to run the application:<br>
@@ -35,5 +38,24 @@ _For Flask and requests:_<br>
 Edit the URL in the `app/data.py` file to the correct URL for your function.
 <br><br>
 
-## Development process
+## API Information
+The API can be called upon with basic curl commands. The API has get and post functions.
+<br><br>
+**Example**<br>
+GET:
+```
+curl --request GET \
+  --url APIURL \
+  --header 'accept: application/json'
+```
+POST:
+```
+curl --request POST \
+  --url APIURL \
+  --header 'accept: application/json' \
+  --header 'content-type: application/json' \
+  --data '{"name":"testing","slug":"QFX-5200","recommendedVersion":"junos 18.1R3-S6"}'
+```
+
+## Acknowledgments
 This project was developed with help from Marist College iLearn resources, Youtube, and IBM resources.
