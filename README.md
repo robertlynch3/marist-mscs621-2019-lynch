@@ -21,19 +21,12 @@ Docker [Installation Guide](https://docs.docker.com/v17.09/engine/installation/)
 <br>
 [Running on AWS](https://www.theserverside.com/video/How-to-deploy-Docker-Hub-hosted-microservices-in-AWS-ECS)<br>
 
-
-**Development Environment**
-Python3 [Installation Guide](https://realpython.com/installing-python/)
-Flask
-Requests
-_For Flask and requests:_
-=======
 Docker [Installation Guide](https://docs.docker.com/v17.09/engine/installation/)
 <br><br>
 **Development Environment**<br>
 Python3 [Installation Guide](https://realpython.com/installing-python/)<br>
 Flask<br>
-Requests<br>
+Requests<br><br>
 _For Flask and requests:_<br>
 `sudo pip install requirements.txt`
 <br><br>
