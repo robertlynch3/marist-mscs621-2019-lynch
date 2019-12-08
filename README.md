@@ -14,9 +14,9 @@ ARCHITECTURE DIAGRAM
 The logical flow of the application consists of user interaction with either the web front or the development environment. Then, either the web front or the developement environment, interacts with the API to display the correct information for the user.
 
 ## Deployment
-### Requirements
-The following are required to run the application:
+The following are required to run the application:<br>
 **Web Front**<br>
+<<<<<<< HEAD
 Docker [Installation Guide](https://docs.docker.com/v17.09/engine/installation/)<br>
 `docker run -d -p 5000:5000 robertlynch3/mscs621-fall2019-project`<br>
 <br>
@@ -28,11 +28,20 @@ Python3 [Installation Guide](https://realpython.com/installing-python/)
 Flask
 Requests
 _For Flask and requests:_
+=======
+Docker [Installation Guide](https://docs.docker.com/v17.09/engine/installation/)
+<br><br>
+**Development Environment**<br>
+Python3 [Installation Guide](https://realpython.com/installing-python/)<br>
+Flask<br>
+Requests<br>
+_For Flask and requests:_<br>
+>>>>>>> edc559fb0f4e835ce1ce30e9bee4d24b816175bc
 `sudo pip install requirements.txt`
-
-**API Backend**
+<br><br>
+**API Backend**<br>
 [Follow instructions on IBM Cloud](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-serverless-api-webapp)
 Edit the URL in the `app/data.py` file to the correct URL for your function.
-
+<br><br>
 ## Development process
 This project was developed with help from Marist College iLearn resources, Youtube, and IBM resources.
