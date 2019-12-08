@@ -13,7 +13,7 @@ This application has three components: the web front, development environment, a
 
 The logical flow of the application consists of user interaction with either the web front or the development environment. Then, either the web front or the developement environment, interacts with the API to display the correct information for the user.
 <br><br>
-**Dependencies**
+**Dependencies**<br>
 This applications has two main parts, the web front, and the backend APIs. The web front is built on Python using Flask. Flask renders HTML files based on Jinja2 templates. These web files are then served to the end user. The API backend is served via IBM's serverless functions. NodeJS functions are ran when information is requested.
 
 ## Deployment
