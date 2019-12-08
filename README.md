@@ -20,8 +20,6 @@ Docker [Installation Guide](https://docs.docker.com/v17.09/engine/installation/)
 `docker run -d -p 5000:5000 robertlynch3/mscs621-fall2019-project`<br>
 <br>
 [Running on AWS](https://www.theserverside.com/video/How-to-deploy-Docker-Hub-hosted-microservices-in-AWS-ECS)<br>
-
-Docker [Installation Guide](https://docs.docker.com/v17.09/engine/installation/)
 <br><br>
 **Development Environment**<br>
 Python3 [Installation Guide](https://realpython.com/installing-python/)<br>
