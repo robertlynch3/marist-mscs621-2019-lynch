@@ -7,7 +7,7 @@ This repository is a final project for Marist College MSCS621 - Cloud Computing 
 This application consists of a Flask webpage that connects to an IBM Cloud serverless backend. The application is intended to show users the recommended version level of Juniper Switches. The user can add new switches and their respective firmware.
 
 ## Architecture
-This application has three components: the web front, development environment, and the API backend. The web front is a containerized image containing the python3 repository as well as the python files required to run the application. The development end mainly consists of the Flask and HTML files needed to run the application locally with your console. The development environment allows the user to see the interactions with the application via a terminal. Finally, the API backend is an API based on IBM Cloud serverless compute functions connecting IBM's `Cloudant` database to the application.
+This application has three components: the web front, development environment, and the API backend. The web front is a packaged Docker container image containing the python3 repository as well as the python files required to run the application. The development end mainly consists of the Flask and HTML files needed to run the application locally with your console. The development environment allows the user to see the interactions with the application via a terminal. Finally, the API backend is an API based on IBM Cloud serverless compute functions connecting IBM's `Cloudant` database to the application.
 
 ![Architecture Drawing](MSCS621-Project.png)
 
