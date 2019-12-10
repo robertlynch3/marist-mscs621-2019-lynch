@@ -32,7 +32,7 @@ Requests<br><br>
 _For Flask and requests:_<br>
 `sudo pip install requirements.txt`
 <br>
-Change to the correct `app` directory
+Change to the correct `app` directory<br>
 `python3 app.py`
 <br><br>
 
