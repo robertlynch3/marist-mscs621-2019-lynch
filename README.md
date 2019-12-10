@@ -31,6 +31,9 @@ Flask<br>
 Requests<br><br>
 _For Flask and requests:_<br>
 `sudo pip install requirements.txt`
+<br>
+Change to the correct `app` directory
+`python3 app.py`
 <br><br>
 
 **API Backend**<br>
