@@ -1,7 +1,7 @@
 # Juniper Firmware Application
 This program is web app that connects to a database and returns information about the recommended version level for a particular Juniper switch. The user can add new switches and their respective version levels.
 <br><br>
-The application is usable via: (this link)[http://mscs621.rlyn.ch:5000].
+The application is usable via: [this link](http://mscs621.rlyn.ch:5000).
 <br><br>
 This application was created by Robert Lynch for Marist College MSCS621 - Cloud Computing in Fall 2019. Information for this application is provided by Juniper Networks.
 <br><br><br>
