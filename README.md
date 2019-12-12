@@ -37,7 +37,7 @@ Change to the correct `app` directory<br>
 <br><br>
 
 **API Backend**<br>
-[Follow instructions on IBM Cloud](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-serverless-api-webapp)
+[Follow instructions on IBM Cloud](https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-serverless-api-webapp)<br>
 Edit the URL in the `app/data.py` file to the correct URL for your function.
 <br><br>
 
