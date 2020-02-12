@@ -1,4 +1,4 @@
-# Juniper Firmware Application
+# Juniper Firmware Application - ***This Project has been shut down*** 
 This program is web app that connects to a database and returns information about the recommended version level for a particular Juniper switch. The user can add new switches and their respective version levels.
 <br><br>
 The application is usable via: [this link](http://mscs621.rlyn.ch:5000).
